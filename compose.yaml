@@ -13,6 +13,13 @@ services:
       context: .
     ports:
       - 5000:5000
+    # develop:
+    #   watch:
+    #     - path: ./app
+    #       action: rebuild
+    #     - path: ./app
+    #       target: /usr/src/app
+    #       action: sync
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
