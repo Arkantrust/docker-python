@@ -10,7 +10,9 @@ A simple Python app after following [Docker's Python Language Guide](https://doc
 
 - [x] PostgreSQL through psycopg2
 
-- [ ] CI/CD
+- [x] CI/CD with GitHub Actions
+
+- [x] Kubernetes deployment
 
 ### Added by me
 
@@ -25,3 +27,5 @@ A simple Python app after following [Docker's Python Language Guide](https://doc
 - [ ] Monitoring
 
 - [ ] Security
+
+- [ ] GitHub Container Registry
